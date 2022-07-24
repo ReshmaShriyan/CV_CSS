@@ -1,5 +1,6 @@
 body {
-  background-color: #EEEEEE;
+  background-color: #fefaf6;
+  font-family: Biotif-Regular,Helvetica Neue,Helvetica,Arial,sans-serif;
 }
 hr {
   width: 5%;
@@ -20,4 +21,23 @@ strong{
 }
 th{
   color: #8785A2;
+}
+p{
+color: #232320;
+font-size: 1.1em;
+line-height: 1.7;
+margin: 1em 0 0;
+transition: all .2s ease-in-out;
+position: relative;
+z-index: 100;
+}
+
+div{
+  color: #232320;
+  font-size: 1.1em;
+  line-height: 1.7;
+  margin: 1em 0 0;
+  transition: all .2s ease-in-out;
+  position: relative;
+  z-index: 100;
 }
