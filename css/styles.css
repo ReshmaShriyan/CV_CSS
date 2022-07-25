@@ -1,7 +1,20 @@
-body {
-  background-color: #fefaf6;
+/* ------------------ Tag Selectors --------------- */
+
+p:hover{
+  background-color: #FFC7C7;
   font-family: Biotif-Regular,Helvetica Neue,Helvetica,Arial,sans-serif;
 }
+
+li:hover{
+  background-color: #FFC7C7;
+  font-family: Biotif-Regular,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+td:hover{
+  background-color: #FFC7C7;
+  font-family: Biotif-Regular,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
 hr {
   width: 5%;
   border-style: none;
@@ -57,4 +70,32 @@ li{
   color: #656270;
   font-size: 18px;
   line-height: 32px;
+}
+
+/* --------------- Class Selectors begins here --------------- */
+.para{
+  margin: 1em 0 0;
+  transition: all .2s ease-in-out;
+  position: relative;
+  z-index: 100;
+  font-family: Biotif-Regular,Helvetica Neue,Helvetica,Arial,sans-serif;
+  color: #656270;
+  font-size: 18px;
+  line-height: 32px;
+}
+
+.main-body{
+  background-color: #fefaf6;
+  font-family: Biotif-Regular,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+/* --- More than 1 class can be used for an element, however, only 1 id can be used for an element, class can be */
+/* reused anywhere in the page, id cannot be re-used -- */
+/* ----------------- ID selectors ---------------- */
+#heading {
+  font-family: Bogart,Recoleta,Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+  font-size: 35px;
+  color: #8785A2;
+  line-height: 150%;
 }
